@@ -70,8 +70,7 @@ with mp_face_mesh.FaceMesh(min_detection_confidence=0.5, min_tracking_confidence
                     landmark_drawing_spec=None
                 )
         
-        # Flip the image horizontally for a selfie-view display
-     # Flip the image horizontally for a selfie-view display
+    # Flip the image horizontally for a selfie-view display 
         flipped_image = cv2.flip(image, 1)
         
         # Set the text color (red in this example)
